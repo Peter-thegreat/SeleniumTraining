@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\NEXT GEN\eclipse-workspace\SoftTest\src\test\java\org\stepdefinition\PositiveandNegativeofFB.java"/>
+			<item value="C:\Users\NEXT GEN\eclipse-workspace\FbRegisterr\pom.xml"/>
+			<item value="C:\Users\NEXT GEN\eclipse-workspace\BaseClass\src\test\java\org\stepdefinition\BaseClass.java"/>
+			<item value="C:\Users\NEXT GEN\eclipse-workspace\Base\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.sin"/>
+			<item value="org.faf"/>
+			<item value="org.mav"/>
+			<item value="org.gas"/>
+			<item value="org.cuc"/>
+			<item value="org.poj"/>
+			<item value="org.rat"/>
+			<item value="org.raj"/>
+			<item value="org.pet"/>
+			<item value="org.ath"/>
+			<item value="org.sam"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CucumberProject"/>
+			<item value="SoftTest"/>
+			<item value="SelectClass"/>
+			<item value="Lalit"/>
+			<item value="FbRegister"/>
+			<item value="FbLoginPojo"/>
+			<item value="BaseClasss"/>
+			<item value="org.raj"/>
+			<item value="Sample"/>
+			<item value="BaseClass"/>
+			<item value="Base"/>
+			<item value="BaseCla"/>
+			<item value="MvnIns"/>
+			<item value="MvnInstall"/>
+			<item value="MavenInstallation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

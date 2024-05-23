@@ -1,0 +1,49 @@
+package org.stepdefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class PositiveandNegativeofFB extends BaseClass{
+	@Given("To launch the chrome browser and maximize window")
+	public void to_launch_the_chrome_browser_and_maximize_window() {
+	    launchBrowser();
+	    windowMaximize();
+	}
+
+	@When("To launch the Url of facebook application")
+	public void to_launch_the_Url_of_facebook_application() {
+	   launchurl("https://en-gb.facebook.com/");
+	}
+
+	@When("To pass valid username in email field")
+	public void to_pass_valid_username_in_email_field() {
+		PojoClass p = new PojoClass();
+		passText("Seleniuminmakes@gmail.com", p.getEmail());
+	}
+
+	@When("To pass invalid password in password field")
+	public void to_pass_invalid_password_in_password_field() {
+		PojoClass p = new PojoClass();
+		passText("1235", p.getPassword());
+	}
+
+	@When("To click the login button")
+	public void to_click_the_login_button() {
+	    PojoClass p = new PojoClass();
+	    clickBtn(p.getLogbtn());
+	}
+
+	@When("To check whether navigate to the homepage or not")
+	public void to_check_whether_navigate_to_the_homepage_or_not() {
+	    System.out.println("To Check the system Credentials");
+	}
+
+	@Then("To Close the browser")
+	public void to_Close_the_browser() {
+		closeEntireBrowser();
+	    
+	}
+
+
+}

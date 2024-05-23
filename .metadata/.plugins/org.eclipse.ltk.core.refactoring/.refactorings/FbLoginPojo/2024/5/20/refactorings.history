@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;org.pet&apos; to &apos;BaseClass/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;FbLoginPojo&apos;&#x0D;&#x0A;- Destination element: &apos;BaseClass/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;FbLoginPojo/src/main/java/org.pet&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=BaseClass/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.pet" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1715599910269" version="1.0"/>
+</session>

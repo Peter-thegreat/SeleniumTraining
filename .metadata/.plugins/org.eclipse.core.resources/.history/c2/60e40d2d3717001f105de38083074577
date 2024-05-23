@@ -1,0 +1,61 @@
+package org.stepdefinition;
+
+import org.sin.BaseClass;
+import org.sin.SigninPojo;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class FbRegistration extends BaseClass {
+	@Given("To launch the browser and maximize the window")
+	public void to_launch_the_browser_and_maximize_the_window() {
+	    launchBrowser();
+	    windowMaximize();
+	}
+
+	@When("To launch the Url of facebook application")
+	public void to_launch_the_Url_of_facebook_application() {
+	  launchurl("https://en-gb.facebook.com/");
+	}
+
+	@When("To click the create new button")
+	public void to_click_the_create_new_button() {
+	SigninPojo s = new SigninPojo();
+	clickBtn(s.getCreatacnt());
+	    
+	}
+
+	@When("To pass the firstname in firstname textbox")
+	public void to_pass_the_firstname_in_firstname_textbox() {
+		SigninPojo s = new SigninPojo();
+		passText("Selenium", s.getFirstname());
+	}
+
+	@When("To pass the secondname in secondname in textbox")
+	public void to_pass_the_secondname_in_secondname_in_textbox() {
+		SigninPojo s = new SigninPojo();
+		passText("inmakes", s.getLastname());
+	}
+
+	@When("To pass the mobleno or email in email text box")
+	public void to_pass_the_mobleno_or_email_in_email_text_box() {
+		SigninPojo s = new SigninPojo();
+		passText("Seleniuminmakes@gmail.com", s.getRegmail());
+	    
+	}
+
+	@When("To create new password using new password text box")
+	public void to_create_new_password_using_new_password_text_box() {
+		SigninPojo s = new SigninPojo();
+		passText("inmakes", s.getRegpasswrd());
+		
+	}
+
+	@Then("To close the chrome browser")
+	public void to_close_the_chrome_browser() {
+	   closeEntireBrowser();
+	}
+
+
+}

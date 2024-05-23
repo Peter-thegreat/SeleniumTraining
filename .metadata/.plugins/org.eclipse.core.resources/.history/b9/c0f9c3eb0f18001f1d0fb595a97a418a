@@ -1,0 +1,52 @@
+
+@Feature1
+Feature: To validate the login functionality of facebook application
+
+Background:
+Given To launch the chrome browser and maximize window
+@Regression
+Scenario:To validate the login with valid username and invalid password
+When To launch the Url of facebook application
+And To pass valid username in email field
+And To pass invalid password in password field
+And To click the login button
+And To check whether navigate to the homepage or not
+Then To Close the browser
+@smoke
+Scenario Outline: To validate the positive and negative combination of login functionality
+When user has to hit the facebook Url
+And User has to pass the data "<emaildatas>"in email field
+And User has to pass the data "<passworddatas>"in password field
+And User has to click the login button
+Then User has to close the browser
+
+Examples:
+|emaildatas               |passworddatas|
+|seleniuminmakes@gmail.com|hagagh       |
+|abc@gmail.com            |kcdhjcjgc    |
+|testing@gmailcom         |12345        |
+|infra@gmail.com          |Sfnhkyikki   |
+|apitesting@gmail.com     |9876755      |
+|apitest@gmail.com        |sdjjscgjg    |
+
+@Feature2
+Feature: To validate the account creation of Fb application
+@Sanity
+Scenario: To create new account
+Given To launch the browser and maximize the window
+When To launch the Url of facebook application
+And To click the create new button
+And To pass the firstname in firstname textbox
+|firstname1|ram|
+|firstname2|Sanjay|
+|firstname3|Vedha|
+|firstname4|kumar|
+
+And To pass the secondname in secondname in textbox
+And To pass the mobleno or email in email text box
+|password1|password2|password3|
+|12345|afehst|dfjh@22|
+|fagehth|4455688|JDJH@!$|
+|hgdjhg|8786856|JHKgg@!@|
+And To create new password using new password text box
+Then To close the chrome browser

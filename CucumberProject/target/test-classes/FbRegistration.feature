@@ -1,0 +1,22 @@
+@Feature2
+Feature: To validate the account creation of Fb application
+@Sanity
+Scenario: To create new account
+Given To launch the browser and maximize the window
+When To launch the Url of facebook application
+And To click the create new button
+And To pass the firstname in firstname textbox
+|firstname1|ram|
+|firstname2|Sanjay|
+|firstname3|Vedha|
+|firstname4|kumar|
+
+And To pass the secondname in secondname in textbox
+And To pass the mobleno or email in email text box
+|password1|password2|password3|
+|12345|afehst|dfjh@22|
+|fagehth|4455688|JDJH@!$|
+|hgdjhg|8786856|JHKgg@!@|
+And To create new password using new password text box
+Then To close the chrome browser
+
